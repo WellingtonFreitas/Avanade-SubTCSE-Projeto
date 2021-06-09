@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.SubTCSE.Projeto.Api", "Avanade.SubTCSE.Projeto.Api\Avanade.SubTCSE.Projeto.Api.csproj", "{53A606C4-E904-4676-8423-5DE76B566B97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53A606C4-E904-4676-8423-5DE76B566B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A606C4-E904-4676-8423-5DE76B566B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A606C4-E904-4676-8423-5DE76B566B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A606C4-E904-4676-8423-5DE76B566B97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBDA173B-34AF-4105-9E1B-C35CCB854C77}
+	EndGlobalSection
+EndGlobal
