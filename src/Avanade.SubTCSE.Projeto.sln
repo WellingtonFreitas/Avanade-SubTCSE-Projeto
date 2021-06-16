@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{DC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{E56C5D7B-7193-41D2-A146-B074EADCE103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.SubTCSE.Projeto.Domain", "Avanade.SubTCSE.Projeto.Domain\Avanade.SubTCSE.Projeto.Domain.csproj", "{C62FFF4E-0649-4AE1-B2C3-55A741EF97EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Domain", "Avanade.SubTCSE.Projeto.Domain\Avanade.SubTCSE.Projeto.Domain.csproj", "{C62FFF4E-0649-4AE1-B2C3-55A741EF97EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.SubTCSE.Projeto.Application", "Avanade.SubTCSE.Projeto.Application\Avanade.SubTCSE.Projeto.Application.csproj", "{6D6500F5-9325-4E1C-9F48-FB6B17B6FF47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Application", "Avanade.SubTCSE.Projeto.Application\Avanade.SubTCSE.Projeto.Application.csproj", "{6D6500F5-9325-4E1C-9F48-FB6B17B6FF47}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Test", "4-Test", "{11A5C75B-5B88-4B9A-9969-CAC34BB06084}"
 EndProject
@@ -19,13 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{6316
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1-CrossCutting", "3.1-CrossCutting", "{8EC6F01C-6AA7-4F30-B9FF-E26A9156DE80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.SubTCSE.Projeto.CrossCutting", "Avanade.SubTCSE.Projeto.CrossCutting\Avanade.SubTCSE.Projeto.CrossCutting.csproj", "{652D84D8-448E-4E6D-80B4-040D7272DB2C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2-Data", "3.2-Data", "{1ED36031-63DF-4398-A0F4-DFDB33318306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.SubTCSE.Projeto.Data", "Avanade.SubTCSE.Projeto.Data\Avanade.SubTCSE.Projeto.Data.csproj", "{17B37EBC-3B5F-4B87-893D-DB90F963A50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Api", "Avanade.SubTCSE.Projeto.Api\Avanade.SubTCSE.Projeto.Api.csproj", "{4C2D4DDB-7AE7-4C0B-AB31-4327122C625B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avanade.SubTCSE.Projeto.Api", "Avanade.SubTCSE.Projeto.Api\Avanade.SubTCSE.Projeto.Api.csproj", "{4C2D4DDB-7AE7-4C0B-AB31-4327122C625B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Infra.Data", "..\..\BackEnd\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Infra.Data\Avanade.SubTCSE.Projeto.Infra.Data.csproj", "{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Infra.CrosCutting", "..\..\BackEnd\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Infra.CrosCutting\Avanade.SubTCSE.Projeto.Infra.CrosCutting.csproj", "{26F3A46A-BEE8-4103-841F-FE2239723941}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,18 +41,18 @@ Global
 		{6D6500F5-9325-4E1C-9F48-FB6B17B6FF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6500F5-9325-4E1C-9F48-FB6B17B6FF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D6500F5-9325-4E1C-9F48-FB6B17B6FF47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{652D84D8-448E-4E6D-80B4-040D7272DB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{652D84D8-448E-4E6D-80B4-040D7272DB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{652D84D8-448E-4E6D-80B4-040D7272DB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{652D84D8-448E-4E6D-80B4-040D7272DB2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17B37EBC-3B5F-4B87-893D-DB90F963A50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17B37EBC-3B5F-4B87-893D-DB90F963A50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17B37EBC-3B5F-4B87-893D-DB90F963A50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17B37EBC-3B5F-4B87-893D-DB90F963A50D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C2D4DDB-7AE7-4C0B-AB31-4327122C625B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C2D4DDB-7AE7-4C0B-AB31-4327122C625B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C2D4DDB-7AE7-4C0B-AB31-4327122C625B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C2D4DDB-7AE7-4C0B-AB31-4327122C625B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F3A46A-BEE8-4103-841F-FE2239723941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F3A46A-BEE8-4103-841F-FE2239723941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F3A46A-BEE8-4103-841F-FE2239723941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F3A46A-BEE8-4103-841F-FE2239723941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,10 +61,10 @@ Global
 		{C62FFF4E-0649-4AE1-B2C3-55A741EF97EA} = {DC3ABCBC-307F-4D8F-AAF4-47A10F1B4F63}
 		{6D6500F5-9325-4E1C-9F48-FB6B17B6FF47} = {E56C5D7B-7193-41D2-A146-B074EADCE103}
 		{8EC6F01C-6AA7-4F30-B9FF-E26A9156DE80} = {63164000-2282-418E-8F60-FDE8D464E4F1}
-		{652D84D8-448E-4E6D-80B4-040D7272DB2C} = {8EC6F01C-6AA7-4F30-B9FF-E26A9156DE80}
 		{1ED36031-63DF-4398-A0F4-DFDB33318306} = {63164000-2282-418E-8F60-FDE8D464E4F1}
-		{17B37EBC-3B5F-4B87-893D-DB90F963A50D} = {1ED36031-63DF-4398-A0F4-DFDB33318306}
 		{4C2D4DDB-7AE7-4C0B-AB31-4327122C625B} = {0AD6E593-EA42-4DEF-B5E0-1A9D94F6119B}
+		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF} = {1ED36031-63DF-4398-A0F4-DFDB33318306}
+		{26F3A46A-BEE8-4103-841F-FE2239723941} = {8EC6F01C-6AA7-4F30-B9FF-E26A9156DE80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D11994C-42FD-421D-B18D-6C6BDE474941}
