@@ -1,6 +1,6 @@
 ﻿namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Entities
 {
-    public class EmployeeRole
+    public record EmployeeRole
     {
         public EmployeeRole(string id, string roleName)
         {
@@ -13,7 +13,7 @@
             RoleName = roleName;
         }
 
-        public string Id { get; private set; }
+        public string Id { get; init; }
         public string RoleName { get; init; }
     }
 }

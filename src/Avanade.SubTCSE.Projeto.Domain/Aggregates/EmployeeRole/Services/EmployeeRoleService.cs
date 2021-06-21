@@ -4,7 +4,7 @@
     {
         public void AddEmployeeRole(Entities.EmployeeRole employeeRole)
         {
-            throw new System.NotImplementedException("Calma o coração");
+            throw new System.NotImplementedException();
         }
     }
 }
