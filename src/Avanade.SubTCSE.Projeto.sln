@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Api
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Infra.Data", "..\..\BackEnd\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Infra.Data\Avanade.SubTCSE.Projeto.Infra.Data.csproj", "{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Infra.CrossCutting", "..\..\BackEnd\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Infra.CrosCutting\Avanade.SubTCSE.Projeto.Infra.CrossCutting.csproj", "{26F3A46A-BEE8-4103-841F-FE2239723941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Infra.CrossCutting", "..\..\BackEnd\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Infra.CrossCutting\Avanade.SubTCSE.Projeto.Infra.CrossCutting.csproj", "{26F3A46A-BEE8-4103-841F-FE2239723941}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
