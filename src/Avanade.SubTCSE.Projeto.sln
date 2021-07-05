@@ -25,8 +25,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Api
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Infra.Data", "..\..\BackEnd\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Infra.Data\Avanade.SubTCSE.Projeto.Infra.Data.csproj", "{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.SubTCSE.Projeto.Infra.CrossCutting", "..\..\BackEnd\Avanade-SubTCSE-Projeto\src\Avanade.SubTCSE.Projeto.Infra.CrossCutting\Avanade.SubTCSE.Projeto.Infra.CrossCutting.csproj", "{26F3A46A-BEE8-4103-841F-FE2239723941}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,10 +47,6 @@ Global
 		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26F3A46A-BEE8-4103-841F-FE2239723941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26F3A46A-BEE8-4103-841F-FE2239723941}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26F3A46A-BEE8-4103-841F-FE2239723941}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26F3A46A-BEE8-4103-841F-FE2239723941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,7 +58,6 @@ Global
 		{1ED36031-63DF-4398-A0F4-DFDB33318306} = {63164000-2282-418E-8F60-FDE8D464E4F1}
 		{4C2D4DDB-7AE7-4C0B-AB31-4327122C625B} = {0AD6E593-EA42-4DEF-B5E0-1A9D94F6119B}
 		{4A4BB060-4CA3-4124-A9F1-CCF8CC25BBEF} = {1ED36031-63DF-4398-A0F4-DFDB33318306}
-		{26F3A46A-BEE8-4103-841F-FE2239723941} = {8EC6F01C-6AA7-4F30-B9FF-E26A9156DE80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D11994C-42FD-421D-B18D-6C6BDE474941}
