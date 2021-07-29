@@ -5,6 +5,6 @@ namespace Avanade.SubTCSE.Projeto.Application.Interfaces.EmployeeRole
 {
     public interface IEmployeeRoleAppService
     {
-        Task<EmployeeRoleDto> AddEmployeeRole(EmployeeRoleDto employeeRole);
+        Task<EmployeeRoleDto> AddEmployeeRoleAsync(EmployeeRoleDto employeeRole);
     }
 }
