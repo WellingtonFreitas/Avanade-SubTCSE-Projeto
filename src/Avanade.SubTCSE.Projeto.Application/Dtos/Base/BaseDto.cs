@@ -6,6 +6,6 @@ namespace Avanade.SubTCSE.Projeto.Application.Dtos.Base
     {
         public int Identificador { get; set; }
 
-        public ValidationResult validationResult { get; set; }
+        public ValidationResult ValidateResult { get; set; }
     }
 }
