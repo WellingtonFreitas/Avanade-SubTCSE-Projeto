@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Services
+namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Services
 {
     public interface IEmployeeRoleService
     {

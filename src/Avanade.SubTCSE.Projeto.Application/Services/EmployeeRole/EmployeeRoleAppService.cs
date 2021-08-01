@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Avanade.SubTCSE.Projeto.Application.Dtos.EmployeeRole;
 using Avanade.SubTCSE.Projeto.Application.Interfaces.EmployeeRole;
-using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Services;
+using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Services;
 using System.Threading.Tasks;
 
 namespace Avanade.SubTCSE.Projeto.Application.Services.EmployeeRole
@@ -21,9 +21,9 @@ namespace Avanade.SubTCSE.Projeto.Application.Services.EmployeeRole
             //mapeando do DTO para o dominio
             var itemDomain = _mapper.Map<EmployeeRoleDto, Domain.Aggregates.EmployeeRole.Entities.EmployeeRole>(employeeRoleDto);
             //chama metodo de add
-            var item =await _employeeRoleService.AddEmployeeRoleAsync(itemDomain);
+            var item = await _employeeRoleService.AddEmployeeRoleAsync(itemDomain);
             //mapeando do dominio para o DTO
-            var itemDTO = _mapper.Map<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole,EmployeeRoleDto>(item);
+            var itemDTO = _mapper.Map<Domain.Aggregates.EmployeeRole.Entities.EmployeeRole, EmployeeRoleDto>(item);
 
             return itemDTO;
         }

@@ -6,6 +6,6 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates
     {
         public Tid Id { get; set; }
 
-        public ValidationResult validationResult { get; set; }
+        public ValidationResult ValidationResult { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace Avanade.SubTCSE.Projeto.Infra.Data.Repositories.Base.MongoDb
         public MongoDbContext()
         {
             MongoClientSettings mongoClientSettings = MongoClientSettings
-                .FromUrl(new MongoUrl("mongodb://127.0.0.1:27017"));
+                .FromUrl(new MongoUrl("mongodb://root:Abcd12345@127.0.0.1:27017/?authSource=admin"));
 
             mongoClientSettings.SslSettings =
                 new SslSettings()
@@ -20,7 +20,7 @@ namespace Avanade.SubTCSE.Projeto.Infra.Data.Repositories.Base.MongoDb
 
             MongoClient mongoClient = new MongoClient(settings: mongoClientSettings);
 
-            _mongoDatabase = mongoClient.GetDatabase("fullStack");
+            _mongoDatabase = mongoClient.GetDatabase("fullstack");
         }
 
         public IMongoCollection<TEntity> GetCollection<TEntity>(string collection)
