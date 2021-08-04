@@ -1,6 +1,7 @@
 ﻿using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Repository;
 using Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Services;
 using FluentValidation;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Services
@@ -30,6 +31,20 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Services
             }
 
            return await _employeeRoleRepository.AddAsync(employeeRole);
+        }
+
+        public async Task<List<Entities.EmployeeRole>> FindAllAsync()
+        {
+            return await _employeeRoleRepository.FindAllAsync();
+        }
+
+        public async Task<Entities.EmployeeRole> FindByIdAsync(string Id)
+        {
+            return await _employeeRoleRepository.FindByIdAsync(Id);
+        }
+        public void DeleteById(string id)
+        {
+             _employeeRoleRepository.DeleteByIdAsync(id);
         }
     }
 }

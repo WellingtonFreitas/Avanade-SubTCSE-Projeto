@@ -10,7 +10,7 @@ namespace Avanade.SubTCSE.Projeto.Infra.Data.Repositories.Base.MongoDb
         public MongoDbContext()
         {
             MongoClientSettings mongoClientSettings = MongoClientSettings
-                .FromUrl(new MongoUrl("mongodb://root:Abcd12345@127.0.0.1:27017/?authSource=admin"));
+                .FromUrl(new MongoUrl("mongodb://root:avanade-password@127.0.0.1:27017/admin?authSource=admin"));
 
             mongoClientSettings.SslSettings =
                 new SslSettings()
